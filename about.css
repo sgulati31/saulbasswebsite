@@ -1,0 +1,220 @@
+* {background-color: black;
+}
+
+/*.testbox { 
+    background-color: yellow;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    left: 100px;
+}*/
+
+
+.menu-bar {
+    background-color: none;
+    display: flex;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    font-family: helvetica;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 1220px;
+    margin-top: 85px;
+  }
+
+  .menu-hand {
+    position: fixed;
+    background-color: none;
+    margin-left: 1320px;
+    margin-top: 60px;
+    z-index: 930;
+  }
+  
+  .menu-bar a {
+    border: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    position: relative;
+    margin: 10px 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: none;
+  }
+  
+  .menu-bar a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+
+  .title-about {
+    position: fixed;
+    align-items: center;
+    top: 40px;
+    left: 80px;
+    transform: translate(-20%, -20%);
+    position: center;
+    background-color: none;
+    z-index: 910;
+  }
+
+.title-box {
+    position: fixed;
+    top: 5px;
+    border: 2px solid black;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    opacity: 70%;
+    z-index: 900;
+    height: 50px;
+    width: 270px;
+    filter: blur(6px);
+    
+}
+
+.top-box {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: -40px;
+    height: 130px;
+    filter: blur(4px);
+    opacity: 90%;
+    z-index: 890;
+}
+
+
+
+.other-elements {
+margin-top: 50px;
+}
+
+  .quote {
+    position: relative;
+    top: 100px;
+    left: 30px;
+    width: 50%;
+    background: none;
+  }
+
+  /* .information {
+    color: white;
+    font-family: helvetica;
+    font-size: 14px;
+    top: 300px;
+    left: 20px;
+    position: fixed;
+    text-align: center;
+  }*/
+
+  .information {
+    position: relative;
+    top: 120px;
+    left: -293px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: lighter;
+    text-align: left;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: none;
+    font-size: 14px;
+  }
+  .star {
+    top: 240px;
+    left: 900px;
+    position: absolute;
+    background: none;
+    transition: transform 20s ease;
+    z-index: 850;
+  }
+
+  .star:hover{
+    animation: rotate 20s infinite;
+   
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .experience {
+    position: relative;
+    top: 215px;
+    left: 55px;
+    background-color: none;
+    width: 200%;
+  }
+
+  .arrow {
+    left: 55px;
+    top: 300px;
+    position: relative;
+    z-index: 700px;
+    background-color: none;
+  }
+  .arrow2 {
+    left: 315px;
+    top: -40px;
+    position: relative;
+    z-index: 600px;
+    background-color: none;
+  }
+
+  .skills-right {
+    color: white;
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: lighter;
+    position: relative;
+    top: -210px;
+    left: 380px;
+    background-color: none;
+    line-height: 250%;
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+     background-color: none;
+  }
+
+  
+  .skills-left {
+    color: white;
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: lighter;
+    position: relative;
+    top: 130px;
+    left: 120px;
+    background-color: none;
+    line-height: 250%;
+    list-style-type: none;
+     margin: 0;
+    padding: 0;
+    background-color: none;
+  }
+
+.red-hand {
+position: absolute;
+top: 550px;
+left: 1000px;
+background-color: none;
+}
+
+.awards {
+position: relative;
+top: -100px;
+left: 57px
+}
